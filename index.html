@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASCAPDX.COM</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="js.js"></script>
+    <link rel="stylesheet" href="js.js">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- There is Top side (->) corner button  -->
+    <div id="logo">
+        <h1>ASCAPDX</h1>
+        <h5>This website is made for<br> Fun where you can post <br>Which is in your mind</h5>
+    </div>
+    <div class="heading">
+        <p>Welcome to ASCAPDX</p>
+    </div>
+
+
+
+    <!-- There is Top " navigation bar "  button  -->
+    <div class="navigation_bar">
+        <ul id="navigation_bar">
+            <li><a href="home.html" class="active">Home</a></li>
+            <li><a href="post.html">Post</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Contect us</a></li>
+            <li><a href="">24*7 help</a></li>
+            <li><a href="">Suggest us</a></li>
+
+        </ul>
+    </div>
+
+    <div id="other">
+        <!-- <button class="signup">Sign up -></button> -->
+        <a href="login.html" class="signup">Sign up -></a>
+    </div>
+
+
+    <!-- there is welcome text -->
+    <div id="welcome_text">
+        <h1>welcome</h1>
+        <p id="para">Hi! User there is somthing new for you. This website is made somthing spacial for you. We try to
+            give our best performance to you. This website is totaly safe where you can sign up and use our project and
+            rate us.</p>
+        <button id="btn" onclick="toggleHide()">show/hide</button>
+    </div>
+
+
+
+    <!-- there is our services  -->
+
+    <h1 class="ourservice">Our services</h1>
+    <section id="service">
+        <div class="box">
+            <img src="gym2.jpg" alt="#">
+            <h1 class="services-box1">Services</h1>
+
+
+            <!-- box no 1 para  -->
+            <p>Our main purpose that we think evryone has freedom of thimkimg. So We provide to you our best
+                performance.</p>
+        </div>
+
+
+        <!-- box no 2 para  -->
+        <div class="box">
+            <img src="ggym2.jpg" alt="">
+            <h1 class="services-box2">My First Web In InterNet</h1>
+            <p>I'll made for somthing for you. If you get some spacial feels from this website then rate us.</p>
+        </div>
+    </section>
+
+
+
+    <!-- there is bottom signup -->
+
+    <div class="signupbottompu">
+        <h1 class="bottomtap"><a href="Game.html">Game</a></h1>
+        <h1 class="bottomtap"><a href="Clock.html">Clock</a></h1>
+        <h1 class="bottomtap"><a href="Noteapp.html">Note app</a></h1>
+        <h1 class="bottomtap"><a href="quiz app.html">quiz app</a></h1>
+    </div>
+
+
+
+
+    <!-- there is clients section  -->
+
+    <div id="client-section">
+        <h1 class="ourclint"> Our clients</h1>
+        <div id="clients">
+            <div class="client-items">
+                <img src="2.png" alt=" Our clients ">
+            </div>
+            <div class="client-items">
+                <img src="3.png" alt=" Our clients ">
+            </div>
+            <div class="client-items">
+                <img src="4.png" alt=" Our clients ">
+            </div>
+            <div class="client-items">
+                <img src="5.png" alt=" Our clients ">
+            </div>
+            <div class="client-items">
+                <img src="7.png" alt=" Our clients ">
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- there is footer or copyright  -->
+
+    <footer>
+        <div class="copyright">
+            copyright &copy; MYe-gym.com All rights deserve.
+        </div>
+    </footer>
+
+
+
+    <script>
+        function toggleHide() {
+            btn = document.getElementById('btn')
+            para = document.getElementById('para')
+                ;
+
+            if (para.style.display != 'none') {
+                para.style.display = 'none';
+            }
+            else {
+                para.style.display = 'block';
+            }
+
+
+        }
+    </script>
+</body>
+
+</html>

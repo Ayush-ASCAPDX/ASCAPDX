@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>app</title>
+    <link rel="stylesheet" href="quiz app style.css">
+</head>
+
+<body>
+    <div class="app">
+        <div class="container">
+            <div class="clock">
+                <span>TIME</span>
+                <span id="hrs">00</span>
+                <span>:</span>
+                <span id="min">00</span>
+                <span>:</span>
+                <span id="sec">00</span>
+            </div>
+        </div>
+        <div class="spotwatch">
+            <h3 id="displayTime">00:00:00</h3>
+        </div>
+        <br>
+        <br>
+        <h1>JEE Main / Advance</h1>
+        <br>
+        <div class="quiz">
+            <h2 id="question">question goes here</h2><br>
+            <div id="answer-buttons">
+                <button class="btn">ans 1</button>
+                <button class="btn">ans 2</button>
+                <button class="btn">ans 3</button>
+                <button class="btn">ans 4</button>
+            </div>
+            <button id="previous-btn">previous</button>
+            <button id="next-btn" onclick="watchStart()">Next</button>
+        </div>
+    </div>
+    <script src="java.js"></script>
+</body>
+</html>

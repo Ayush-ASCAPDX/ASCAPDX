@@ -1,0 +1,289 @@
+
+        body{
+            margin: 0px;
+            padding: 0px;   
+        }
+        
+        
+        
+        
+/* There is logo fix in center*/
+        #logo{
+            line-height: 14px;
+            position: absolute;
+            top: 35px;
+            left: 70px;
+            display: inline-block;
+            color: black;
+            
+            text-align: center;
+            
+
+        }
+        #logo h1{
+            color: rgb(31, 7, 213);
+            display: flex;
+        }
+        #logo h5{
+            color: rgb(38 77 64);
+        }
+        
+        
+        /* THERE IS HEADING  */
+        .heading{
+           border: 1px solid rgb(255, 255, 255);
+            display: block;
+            margin: 31px 555px ;
+            text-align: center;
+            font-size: 37px;
+            font-family: "fira sans",sans-serif;
+            font-weight: bold;
+            
+        }
+/* There is navigation bar  fix in center */
+        .navigation_bar{
+             display: block;
+             background-color: rgb(0, 67, 114);
+            margin: 40px 0px;
+            width: 100%;
+            color: rgb(0, 0, 0);
+            height: 50px;
+            
+        }
+
+/* There is  navigation bar  */
+        #navigation_bar{
+            display: inline-block;
+        }
+        #navigation_bar li{
+            display: inline-block;
+        }
+
+
+        #navigation_bar li a{
+            color: white;
+            text-decoration:none;
+             .heading p{
+            color:rgb(0, 0, 0);
+
+        }
+        
+        
+        
+        
+        
+        font-size: 21px;
+            padding: 0px 29px;
+             font-family: "fira sans",sans-serif;
+        }
+        #navigation_bar li a:hover,#navigation_bar li a.active{
+            text-decoration: underline;
+            color: rgb(181 233 244);
+             font-family: "fira sans",sans-serif;
+             
+        }
+
+
+/* There is other and side object  */
+        #other{
+            top: 13px;
+            display: inline-block;
+            right: 34px;
+            position: absolute; 
+            margin: 4px;
+            
+            
+        }
+/* there is top side corner button */
+        .signup{
+            background-color:  #3e2bb0;
+            border: 1px solid black;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 25px;
+            box-shadow: 5px 3px 4px rgb(37, 37, 232);
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+            font-family: "fira sans",sans-serif;
+            margin: 17px 5px;
+            padding-left: 15px;
+            padding-top: 6px;
+            display: flex;
+            width: 123.53px;
+            height: 38px;
+            transition-property: all;
+            transition-duration: 0.25s;
+            transition-timing-function: ease-in-out;
+        }
+
+        .signup:hover{
+            font-family: "fira sans",sans-serif;
+            background-color: #3f2f95;
+            box-shadow: 5px 3px 4px rgb(20, 20, 239);
+            width: 128px;
+            height: 40px;
+            
+        }
+
+
+
+
+
+
+/* there is welcome text */
+        #welcome_text{
+            
+            display: inline;
+            justify-content: center;
+            text-align: center;
+        }
+         
+        
+        #welcome_text h1{
+            font-size: 50px;
+         }
+
+
+          #welcome_text p{
+            display: inline-block;
+            font-size: 21px;
+            width: 800px;
+            text-align: center;
+            margin-left: 377px;
+
+          }
+        
+
+/* there is our services  */
+
+.ourservice {
+    font-size: 40px;
+    border: 2px solid rgb(17, 24, 227);
+    width: 420px;
+    height: 62px;
+    margin-left: 451px;
+    padding-left: 188px;
+    margin-top: 71px;
+    padding-top: 9px;
+    background-color: rgb(208, 232, 252);
+    border-radius: 12px;
+}
+
+#service{
+    display: flex;
+    margin: 144px 24px;
+
+}
+#service .box{
+    border: 2px solid rgb(3, 3, 190);
+    margin-top: -50px;
+    margin-bottom: 6px;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding: 13px;
+    border-radius: 15px;
+    background-color: aliceblue;
+    box-shadow: 8px 8px 5px grey;
+    width: 800px;
+}
+
+#service .services-box1{
+    text-align: center;
+    font-family: "fira sans",sans-serif;
+    
+}
+#service .services-box2{
+    text-align: center;
+    font-family: "fira sans",sans-serif;
+    
+}
+#service p{
+    
+    font-family: "fira sans",sans-serif;
+}
+
+
+/* there is bottom tap to continew */
+
+.bottomtap{
+    background-color: #3e2bb0;
+    border: 2px solid black;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 28px;
+    box-shadow: 5px 3px 4px rgb(37, 37, 232);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    margin-left: 650px;
+    padding-left: 19px;
+    padding-top: 15px;
+    display: flex;
+    width: 222px;
+    height: 52px;
+    transition-property: all;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+}
+
+.bottomtap:hover{
+    font-family: "Poppins", sans-serif;
+    background-color:  #452dca;
+    box-shadow: 5px 3px 4px rgb(20, 20, 239);
+    width: 228px;
+    height: 55px; 
+}
+.bottomtap a{
+    color: rgb(195, 221, 244);
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+/* there is clinte section  */
+
+#client-section{
+    display: block;
+    background: rgba(19, 81, 197, 0.4);
+    height: 300px;
+    margin-top: -57px;
+    width: 1519px;
+}
+
+ #clients{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 159px;
+ }
+ #clients img{
+    height: 77px;
+    margin: 3px 31px ;
+ }
+#client-section::before{
+   content:"";
+    background:url('bg1.jpg') no-repeat center/cover;
+    position: absolute;
+    height: 350px;
+    width:100%;
+    z-index: -1;
+    opacity: 0.76;
+    padding: 1px 2px; 
+}
+.ourclint{
+    font-family: "fira sans",sans-serif;
+    margin: 72px 444px;
+    padding: 14px 44px;
+    text-align: center;
+    
+    margin-top: 200px;
+    
+    border-radius: 12px;
+    font-size:50px ;
+    color:#242525
+}
+
+.copyright{
+    text-align: center;
+    color:white;
+    background-color: #0d0e0e;
+}
